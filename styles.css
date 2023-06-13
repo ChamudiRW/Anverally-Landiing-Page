@@ -53,7 +53,7 @@ h6 {
 
 .sticky-buttons {
   position: fixed;
-  right: 20px;
+  right: 1px;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
@@ -64,10 +64,9 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-bottom: 10px;
+  width: 70px;
+  height: 60px;
+
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -170,7 +169,25 @@ h6 {
   background-color: #3e8e41;
 }
 .card-section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-image: url('/img/back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 20px 0;
+}
+.card-section-top {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(179, 145, 105, 0.97);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card-grid {
