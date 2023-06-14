@@ -110,6 +110,25 @@ h6 {
   cursor: pointer;
 }
 /*  general  */
+.image-container {
+  display: flex;
+  gap: 50px;
+}
+
+/* .image-container img {
+  width: 200px;
+} */
+.logo {
+  height: 200px;
+}
+
+.s1 {
+  color: white !important;
+}
+.s2 {
+  color: #fbad17 !important;
+  font-size: 60px;
+}
 .container {
   min-height: 100vh;
   width: 100%;
@@ -171,6 +190,7 @@ h6 {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .contact-form input[type='text'],
@@ -179,6 +199,7 @@ h6 {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
+  background-color: #bcbcbc;
   border-radius: 4px;
   margin-bottom: 10px;
 }
@@ -235,7 +256,7 @@ h6 {
 
 .card-image {
   width: 100%;
-  max-height: 200px;
+  max-height: 300px;
   object-fit: cover;
 }
 
@@ -243,6 +264,7 @@ h6 {
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 5px;
+  color: white;
 }
 
 .card-description {
